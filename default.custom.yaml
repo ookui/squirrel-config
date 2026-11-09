@@ -1,0 +1,9 @@
+patch:
+  key_binder:
+    select_first_character: minus
+    select_last_character: equal
+    bindings:
+      - {accept: bracketleft, send: Page_Up, when: has_menu}
+      - {accept: bracketright, send: Page_Down, when: has_menu}
+  menu:
+    page_size: 9		#候选词个数
